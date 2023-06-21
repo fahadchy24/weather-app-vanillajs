@@ -1,0 +1,1 @@
+Netlify live server link: https://fahad24-weather-app.netlify.app/
