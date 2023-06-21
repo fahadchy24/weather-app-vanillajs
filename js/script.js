@@ -40,4 +40,12 @@ $(document).ready(() => {
       <p>Humidity: ${humidity}%</p>
     `);
   };
+
+  const showError = (message) => {
+    $("#weatherInfo").html(`
+      <div class="alert alert-danger" role="alert">
+        ${message}
+      </div>
+    `);
+  };
 });
